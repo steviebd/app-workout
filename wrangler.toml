@@ -1,0 +1,8 @@
+name = "workout-tracker-api"
+main = "server/index.ts"
+compatibility_date = "2024-12-18"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "workout-tracker"
+database_id = "${D1_DATABASE_ID}"

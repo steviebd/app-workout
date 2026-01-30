@@ -1,0 +1,10 @@
+# Bun configuration for Expo + TypeScript
+# Run with: bun run dev
+
+[dev]
+  auto-install = true
+
+[install]
+  peer-dependency-rules = {
+    ignore-native = ["react", "react-dom"]
+  }

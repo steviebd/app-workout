@@ -1,0 +1,42 @@
+{
+  "name": "workout-tracker",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "type": "module",
+  "scripts": {
+    "dev": "expo start",
+    "android": "expo run:android",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "worker:dev": "cd server && bun run wrangler dev --local",
+    "worker:deploy": "cd server && bun run wrangler deploy"
+  },
+  "dependencies": {
+    "expo": "~52.0.0",
+    "expo-router": "~4.0.0",
+    "expo-status-bar": "~2.0.0",
+    "expo-linking": "~7.0.0",
+    "expo-camera": "~16.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.0",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
+    "nativewind": "^4.1.0",
+    "tailwindcss": "^3.4.0",
+    "@tanstack/react-query": "^5.60.0",
+    "zustand": "^5.0.0",
+    "drizzle-orm": "^0.38.0",
+    "better-sqlite3": "^11.0.0",
+    "@libsql/client": "^0.14.0",
+    "clsx": "^2.1.0",
+    "date-fns": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@tailwindcss/babel": "^0.0.0",
+    "drizzle-kit": "^0.30.0",
+    "typescript": "^5.3.0"
+  }
+}
